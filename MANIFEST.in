@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include three_dots *.css
+recursive-include three_dots *.csv
+recursive-include three_dots *.html
+recursive-include three_dots *.ico
+recursive-include three_dots *.js
+recursive-include three_dots *.json
+recursive-include three_dots *.md
+recursive-include three_dots *.png
+recursive-include three_dots *.py
+recursive-include three_dots *.svg
+recursive-include three_dots *.txt
+recursive-exclude three_dots *.pyc
