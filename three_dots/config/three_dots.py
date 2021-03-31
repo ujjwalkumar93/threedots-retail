@@ -10,9 +10,15 @@ def get_data():
             "items": [
                 {
                     "type": "doctype",
-                    "name": "my_app",
-                    "label": _("What I want to call my_app"),
-                }
+                    "name": "Mobile",
+                    "doctype": "Mobile",
+                    "label": "Master Data",
+                },
+                {
+                    "type": "doctype",
+                    "name": "Brand",
+                    "doctype": "Brand",
+                },
             ]
         }
     ]
